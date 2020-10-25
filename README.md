@@ -1,30 +1,29 @@
 # DevWeb
  
- Nome
+# Nome
 Projeto Trabaho Desenvolvimento Web
 
-Descrição
+# Descrição
 DDesenvolvimento Web Full Stack
 Portal de Filmes nos Padrões web – html, css, javascript (PAW)
 
-Instalação
+# Instalação
 Dentro de um determinado ecossistema, esse projeto e apenas necessario um web server local
 EX: XAMPP, APACHE, ISS etc
 
-Uso
+# Uso
 Use o exemplo liberalmente  a fins didatico e mostre a saída esperada de acordo com seu aprendizado 
 
-Contribuindo
+# Contribuindo
 Estou aberto a contribuições deste projeto.
 
+# Autores e reconhecimento
 
-Autores e reconhecimento
-
-Rommel Vieira Carneiro - Mestre
+Eu mesmo e Google
 
 
-Licença
+# Licença
 Para projetos de código aberto.
 
-Status do projeto
+# Status do projeto
 Estou em desenvolvimento, pois o semestre ainda nao terminou
