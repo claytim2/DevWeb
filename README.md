@@ -4,7 +4,7 @@
 Projeto Trabaho Desenvolvimento Web
 
 # Descrição
-DDesenvolvimento Web Full Stack
+Desenvolvimento Web Full Stack
 Portal de Filmes nos Padrões web – html, css, javascript (PAW)
 
 # Instalação
