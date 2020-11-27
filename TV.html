@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>DWFilmes Entretenimentos</title>
+  <meta name="author" content="Clayton R F Martins">
+  <meta name="description" content="Curso Web Designer Puc Minas">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="css/nouislider.min.css">
+  <link rel="stylesheet" href="css/ionicons.min.css">
+  <link rel="stylesheet" href="css/plyr.css">
+  <link rel="stylesheet" href="css/photoswipe.css">
+  <link rel="stylesheet" href="css/default-skin.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/kube.min.css">
+</head>
+
+<body>
+
+  <div id='cssmenu'>
+    <ul>
+      <li class='active'><a href='index.html'>Inicio</a></li>
+      <li><a href='TV.html'>Tv</a></li>
+      <li><a href='serie.html'>Series</a></li>
+      <li><a href='404.html'>Contact</a></li>
+    </ul>
+    </div>
+  <div class="page">
+    <header class="header is-inset-bottom-20 is-text-center" id="header">
+      <div class="is-40">
+        <img src="images/LogoC.png" class="logo">
+        <span class="is-large white">DWFilmes Entretenimentos</span>
+        <div class="is-append is-inset-20">
+          <input type="text" id="searchInput" name="search" placeholder="Nome" class="is-search">
+          <button class="button is-yellow-btn" onclick="search()">Ir</button>
+        </div>
+      </div>
+    </header>
+    <!-- Header Menu of the Page -->
+
+    <template id="heroTemplate">
+      <img class="hero-bg">
+    </template>
+
+    <main class="main is-inset-32">
+      <!-- Movie Details -->
+      <div id="movie"></div>
+      <template id="movieTemplate">
+        <div class="is-row">
+          <div class="is-col is-text-center is-30">
+            <img class="movie-poster" alt="Poster">
+          </div>
+          <div class="is-col is-70">
+            <h2 class="title"></h2>
+            <span class="movie-release-year is-muted"></span>
+
+            <h3 class="is-inset-top-20">Overview</h3>
+            <p class="is-large overview"></p>
+          </div>
+        </div>
+      </template>
+
+      <div id="recommendations" class="is-row is-inset-top-32"></div>
+      <template id="recomendationsTemplate">
+        <div class="is-col item is-text-center is-20 is-inset-y-16">
+          <img class="movie-poster is-inset-bottom-12" alt="Poster"><br>
+          <span class="movie-title"></span>
+        </div>
+      </template>
+
+      <!-- Movies List -->
+      <div id="title" class="is-inset-bottom-32 results"></div>
+      <template id="resultsTemplate">
+        <span class="results is-muted"></span>
+        <span class="label is-badge"></span>
+      </template>
+      <template id="titleTemplate">
+        <span class="title is-muted"></span>
+      </template>
+
+      <table id="moviesTable" class="is-striped"></table>
+      <template id="movieListTemplate">
+        <tr class="item is-middle">
+          <td class="is-10 is-text-center">
+            <img class="movie-poster">
+            <img class="movie-background">
+          </td>
+          <td>
+            <span><b class="movie-title"></b></span><br>
+            <span class="movie-release-year is-muted"></span>
+          </td>
+        </tr>
+      </template>
+
+      <div id="pager" class="is-inset-top-20 pager"></div>
+      <template id="pagerTemplate">
+        <button class="button"></button>
+      </template>
+
+      <template id="list-template">
+        <li class="item">
+          <div class="item-title"></div>
+          <div class="item-body"></div>
+        </li>
+      </template>
+    </main>
+  </div>
+  <!-- footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="footer__content">
+            <a href="index.html" class="footer__logo">
+              <img src="images/LogoC.png" alt="">
+            </a>
+
+            <span class="footer__copyright">© 2020 DWFilmes Entretenimentos<br> Create by <a href="NO PROFILE"
+                target="_blank">Clayton Fernandez </a></span>
+
+            <nav class="footer__nav">
+              <a href="about.html">About Us</a>
+              <a href="contacts.html">Contacts</a>
+              <a href="privacy.html">Privacy Policy</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- end footer -->
+
+</body>
+<!-- JS -->
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.mousewheel.min.js"></script>
+<script src="js/jquery.mCustomScrollbar.min.js"></script>
+<script src="js/wNumb.js"></script>
+<script src="js/nouislider.min.js"></script>
+<script src="js/jquery.morelines.min.js"></script>
+<script src="js/plyr.min.js"></script>
+<script src="js/photoswipe.min.js"></script>
+<script src="js/photoswipe-ui-default.min.js"></script>
+<script src='js/config.js'></script>
+<script src="js/script.js"></script>
+
+</html>
